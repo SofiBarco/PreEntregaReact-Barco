@@ -1,0 +1,28 @@
+/*estilos en app.jsx*/
+.divGeneral {
+  background-color: aquamarine;
+  color: black;
+}
+.grid_area {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 600 px);
+  gap: 30px;
+ 
+  padding: 50px;
+  margin-right: 10px;
+  font-size: 1em;
+  width: 95%; }
+
+  .piedepagina {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    background-color: #F1F2F2; }
+  .enlaces__piedepagina {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin: 20px;
+      background-color: #F1F2F2; }
+

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "idCategory" : 1,
+        "img": "mascaras1.jpg",
+        "nombre": "Máscaras",
+        "description": "Son máscaras q le aportan a la piel lo que necesita para estar humectada y fresca. Se retiran luego de dejar actuar 10 minutos con un algodón húmedo",
+        "precio": 500
+    },
+    {
+        "id": 2,
+        "idCategory" : 2,
+        "img": "serum.jpg",
+        "nombre": " Sérum",
+        "description": "Serum,  ideales para quitar manchas que dejó el verano y cerrar poros",
+        "precio": 1600
+    },
+    {
+        "id": 3,
+        "idCategory" : 3,
+        "img": "vitaminas.jpg",
+        "nombre": " Vitamina C",
+        "description": "Fortalece tu sistema inmune",
+        "precio": 1000
+    },
+    {
+        "id": 4,
+        "idCategory" : 4,
+        "img": "bbcream.jpg",
+        "nombre": " Bb Cream",
+        "description": "Crema anti age, protección y color. Todo en una!",
+        "precio": 2800
+    },
+    {
+        "id": 5,
+        "idCategory" : 4,
+        "img": "geldeseda.jpg",
+        "nombre": " Gel de Seda",
+        "description": "Gel de seda con un tacto increíble con los beneficios del dermotensiv que es un activo contra toda la contracción que produce las arrugas. Efecto botóx.",
+        "precio": 1200
+    },
+    {
+        "id": 6,
+        "idCategory" : 4,
+        "img": "geldespigment.jpg",
+        "nombre": " Gel Despigmentante",
+        "description": "Para todo tipo de pieles, secas, mixtas, normales y grasas con pigmentaciones por: Embarazo, anticonceptivos y radiaciones solares excesivas.",
+        "precio": 1800
+    }
+]
