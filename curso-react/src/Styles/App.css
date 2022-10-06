@@ -25,4 +25,19 @@
       justify-content: space-around;
       margin: 20px;
       background-color: #F1F2F2; }
-
+  .card_productos {
+    animation: myAnim 1s linear 0s 1 normal none;
+  }
+  .card_productos:hover {
+    background-color: #ee9097;
+    filter: brightness(1);
+  }
+  @keyframes myAnim {
+    0% {
+      transform: scale(0);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }

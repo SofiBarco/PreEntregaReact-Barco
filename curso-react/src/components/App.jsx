@@ -9,6 +9,7 @@ import Contacto from './content/Contacto';
 import Nosotros from './content/Nosotros';
 import Carrito from './content/Carrito';
 import Footer from './content/Footer';
+import Category from './content/Category';
 
 const App = () => {
     return (
@@ -21,6 +22,7 @@ const App = () => {
             <Route path='/Nosotros' element={<Nosotros/>} />
             <Route path='/Contacto' element={<Contacto/>} />
             <Route path='/ItemList/:id' element={<ItemList/>}/>
+            <Route path='/Category/:category' element={<Category/>}/>
             <Route path='/Carrito' element={<Carrito/>} />
           </Routes>
           <Footer/>

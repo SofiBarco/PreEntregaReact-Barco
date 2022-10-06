@@ -8,7 +8,9 @@ import { Link } from "react-router-dom";
 
  
 
-const Navbar = () => {
+const Navbar = ({contador}) => {
+  const listDropdown = ["Mascaras", "Serums", "Vitaminas", "Cremas y Geles"]
+
     return (
 
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -18,7 +20,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarColor01">
             <ul className="navbar-nav me-auto">
             <Secciones/>
-            <Dropdown/> 
+            <Dropdown lista = {listDropdown}/> 
             
             </ul>            
           </div>

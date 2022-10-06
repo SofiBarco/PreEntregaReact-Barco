@@ -34,7 +34,7 @@ if(indice != -1) {
   return (
         <>
         
-  <div className="row g-0">
+  <div className="row g-0 card_productos">
     <div className="col-md-4">
       <img src={`../Img/${producto.img}`} className="img-fluid rounded-start" alt={producto.nombre} />
     </div>
