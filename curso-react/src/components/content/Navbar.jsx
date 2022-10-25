@@ -5,12 +5,14 @@ import Dropdown from "../layouts/Dropdown";
 import CardWidget from "./CardWidget";
 import ItemListContainer from "./ListContainer";
 import { Link } from "react-router-dom";
+import Carrito from "./Carrito";
+
 
  
 
 const Navbar = ({contador}) => {
   const listDropdown = ["Mascaras", "Serums", "Vitaminas", "Cremas y Geles"]
-
+ 
     return (
 
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -27,7 +29,7 @@ const Navbar = ({contador}) => {
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
               <Link className="nav-link active" to='/Carrito'><CardWidget/>         
-                </Link>
+                </Link>                
             </li>
           
           </ul>

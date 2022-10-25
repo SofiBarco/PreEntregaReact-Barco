@@ -3,54 +3,60 @@
         "id": 1,
         "idCategory" : 1,
         "category" : "Mascaras",    
-        "img": "mascaras1.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/react347552022.appspot.com/o/Imagenes%2Fmascaras1.jpg?alt=media&token=9ad3f629-c575-49dc-b084-0d80741a711e",
         "nombre": "Máscaras",
         "description": "Son máscaras q le aportan a la piel lo que necesita para estar humectada y fresca. Se retiran luego de dejar actuar 10 minutos con un algodón húmedo",
         "precio": 500
+,        "stock" : 15
     },
     {
         "id": 2,
         "idCategory" : 2,
         "category" : "Serums",
-        "img": "serum.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/react347552022.appspot.com/o/Imagenes%2Fserum.jpg?alt=media&token=2527f9d5-9e76-4526-b6ad-de1d42d75992",
         "nombre": " Sérum",
-        "description": "Serum,  ideales para quitar manchas que dejó el verano y cerrar poros",
-        "precio": 1600
+        "description": "Serum, ideales para quitar manchas que dejó el verano y cerrar poros",
+        "precio": 1600,
+        "stock" : 10
     },
     {
         "id": 3,
         "idCategory" : 3,
         "category" : "Vitaminas",
-        "img": "vitaminas.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/react347552022.appspot.com/o/Imagenes%2Fvitaminas.jpg?alt=media&token=e5db6976-d584-43d1-ae32-0f2189e2dec7",
         "nombre": " Vitamina C",
         "description": "Fortalece tu sistema inmune",
-        "precio": 1000
+        "precio": 1000,
+        "stock" : 30
     },
     {
         "id": 4,
         "idCategory" : 4,
         "category" : "Cremas_y_Geles",
-        "img": "bbcream.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/react347552022.appspot.com/o/Imagenes%2Fbbcream.jpg?alt=media&token=bb310d35-b592-46f0-9bd4-f1255d7b788b",
         "nombre": " Bb Cream",
         "description": "Crema anti age, protección y color. Todo en una!",
-        "precio": 2800
+        "precio": 2800,
+        "stock" : 20
     },
     {
         "id": 5,
         "idCategory" : 4,
         "category" : "Cremas_y_Geles",
-        "img": "geldeseda.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/react347552022.appspot.com/o/Imagenes%2Fgeldeseda.jpg?alt=media&token=aa786972-490e-4e39-98d6-560f4d3fd80e",
         "nombre": " Gel de Seda",
         "description": "Gel de seda con un tacto increíble con los beneficios del dermotensiv que es un activo contra toda la contracción que produce las arrugas. Efecto botóx.",
-        "precio": 1200
+        "precio": 1200,
+        "stock" : 10
     },
     {
         "id": 6,
         "idCategory" : 4,
         "category" : "Cremas_y_Geles",
-        "img": "geldespigment.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/react347552022.appspot.com/o/Imagenes%2Fgeldespigment.jpg?alt=media&token=1dd0f664-bea4-4241-b6e5-e0666a053f4f",
         "nombre": " Gel Despigmentante",
         "description": "Para todo tipo de pieles, secas, mixtas, normales y grasas con pigmentaciones por: Embarazo, anticonceptivos y radiaciones solares excesivas.",
-        "precio": 1800
+        "precio": 1800,
+        "stock" : 10
     }
 ]
