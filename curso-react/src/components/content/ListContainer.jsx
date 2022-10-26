@@ -8,7 +8,7 @@ const ListContainer = ({producto}) => {
 
   const cantProducto = (operacion) => {
     if(operacion == "+") {
-      if (cantidad < producto.stock) {
+      if (cantidad < producto[1].stock) {
         setCantidad (cantidad + 1)
       }
     } else {
@@ -23,13 +23,13 @@ const ListContainer = ({producto}) => {
         
   <div className="row g-0 card_productos">
     <div className="col-md-4">
-      <img src={`${producto.img}`} className="img-fluid rounded-start" alt={producto.nombre} />
+      <img src={producto[1].imagen} className="img-fluid rounded-start" alt={producto.nombre} />
     </div>
     <div className="col-md-8">
       <div className="card-body">
-        <h5 className="card-title">{producto.nombre}</h5>
-        <p className="card-text">{producto.description}</p>
-        <p className="card-text"> $ {producto.precio}</p>
+        <h5 className="card-title">{producto[1].nombre}</h5>
+        <p className="card-text">{producto[1].detalle}</p>
+        <p className="card-text"> $ {producto[1].precio}</p>
         <p className='card-text'>{cantidad}</p>
         <button className="btn btn-primary" onClick={()=> cantProducto("-")}>-</button>
         <button className="btn btn-primary" onClick={()=> cantProducto("+")}>+</button>

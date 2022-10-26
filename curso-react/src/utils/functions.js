@@ -1,4 +1,3 @@
-import { cargarBaseDeDatos } from "./firebase"
 
 export const consultarBDD = async (ruta) => {
     const response = await fetch(ruta)
@@ -6,4 +5,3 @@ export const consultarBDD = async (ruta) => {
     return productos
 }
 
-cargarBaseDeDatos()

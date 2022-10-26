@@ -3,7 +3,7 @@ import React from 'react';
 const Nosotros = () => {
     return (
         <>
-            <main className="container">
+            <main className="container Home">
                 <section className="nosotros">
                     <h2 className="shadow p-3 mb-5 bg-body rounded text-center">¿Quiénes somos?</h2>
                     <p>

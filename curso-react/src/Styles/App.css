@@ -1,6 +1,10 @@
 /*estilos en app.jsx*/
 @import url("https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap");
 
+.Home {
+  background-color: #F2D7D5;
+}
+
 .divGeneral {
   background-color: aquamarine;
   color: black;

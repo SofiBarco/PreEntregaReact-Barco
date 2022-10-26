@@ -13,7 +13,8 @@ const Contacto = () => {
     return (
 
         <>
-        <div className='container'>
+        <body className='Home'>
+           <div className='container'>
             <form onSubmit={consultarForm} ref={datosFormulario}>
                 <div className="mb-3">
                     <label htmlFor="nombre" className="form-label">Nombre</label>
@@ -30,7 +31,9 @@ const Contacto = () => {
             
             <button type="submit" className="btn btn-primary">Enviar</button>
         </form>
-        </div>
+        </div>   
+        </body>
+      
             
 
         </>
