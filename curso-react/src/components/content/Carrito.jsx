@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 const Carrito = () => {
-    const { carrito, agregarProducto, quitarProducto, vaciarCarrito, sumaTotalProductos } = useContext(CarritoContext)
+    const { carrito, agregarProducto, quitarProducto, vaciarCarrito, sumaTotalProductos, productosCount } = useContext(CarritoContext)
     const [carritoLocal, setCarritoLocal] = useState([]);
 
     useEffect(() => {
@@ -20,11 +20,15 @@ const Carrito = () => {
                 <button className='btn btn-dark' onClick={() => quitarProducto(producto)}>Eliminar Producto</button>
 
             </div>
+         )
 
+        const cantProductos = carrito.map(producto =>
+            <div className="card card_productos" key={producto.id} style={{ width: '18rem' }}>
+                <p className="card-text"> Cantidad de productos a comprar: {}</p>
+            </div>
         )
 
-
-        setCarritoLocal(productoMostrar)
+        setCarritoLocal(productoMostrar, cantProductos)
 
 
 
