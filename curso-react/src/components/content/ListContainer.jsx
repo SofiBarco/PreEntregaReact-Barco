@@ -4,7 +4,7 @@ import { CarritoContext } from '../../context/CarritoContext';
 const ListContainer = ({producto}) => {
   const [cantidad, setCantidad] = useState(1)
   
-  const {carrito, agregarProducto, quitarProducto} = useContext (CarritoContext)
+  const {agregarProducto} = useContext (CarritoContext)
 
   const cantProducto = (operacion) => {
     if(operacion == "+") {

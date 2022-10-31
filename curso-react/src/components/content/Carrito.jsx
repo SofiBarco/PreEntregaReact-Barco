@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 const Carrito = () => {
-    const { carrito, agregarProducto, quitarProducto, vaciarCarrito, sumaTotalProductos, productosCount } = useContext(CarritoContext)
+    const { carrito, quitarProducto, vaciarCarrito, sumaTotalProductos} = useContext(CarritoContext)
     const [carritoLocal, setCarritoLocal] = useState([]);
 
     useEffect(() => {
@@ -17,18 +17,17 @@ const Carrito = () => {
                     <p className="card-text">Cantidad: {producto.cantidad}</p>
                 </div>
                 <h6>Precio Total: ${producto.precio * producto.cantidad}</h6>
-                <button className='btn btn-dark' onClick={() => quitarProducto(producto)}>Eliminar Producto</button>
+                <button className='btn btn-dark' onClick={() => quitarProducto(producto)}>Eliminar Producto</button> <br />
 
+                
             </div>
+
+               
          )
+            
+        
 
-        const cantProductos = carrito.map(producto =>
-            <div className="card card_productos" key={producto.id} style={{ width: '18rem' }}>
-                <p className="card-text"> Cantidad de productos a comprar: {}</p>
-            </div>
-        )
-
-        setCarritoLocal(productoMostrar, cantProductos)
+        setCarritoLocal(productoMostrar)
 
 
 
@@ -40,8 +39,14 @@ const Carrito = () => {
             <body className='Home'>
                 <div className="row grid_area">
                     {carritoLocal}
-
+                
                 </div>
+                <button variant="contained" className='btn btn-primary' onClick={() => vaciarCarrito()}> Vaciar Carrito </button>
+            <div>
+                <h1>Suma total de su compra:</h1>
+                <h2>$ {sumaTotalProductos () }</h2>
+            </div>
+
             </body>
                 
 
@@ -57,6 +62,7 @@ const Carrito = () => {
                         <h1 className="card-title">El carrito está vacío!</h1>
                         <p className="card-text">Si desea seguir viendo productos haga click en el siguiente botón</p>
                         <Link className="nav-link active" to='/'><button className='btn btn-primary'>Volver a Home</button></Link>
+                        
                     </div>
                 </div>  
                 

@@ -36,11 +36,11 @@ const CarritoProvider = (props) => {
     };
 
     const vaciarCarrito = () => {
-        return setCarrito([])
+         setCarrito([])
     }
 
     const sumaTotalProductos = () => {
-        return setCarrito.reduce((total , producto) => (total += producto.precio * producto.cantidad), 0);
+        return carrito.reduce((total , prod) => (total += prod.precio * prod.cantidad), 0);
     };
 
     return (
